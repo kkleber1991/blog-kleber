@@ -9,3 +9,9 @@ Dia 1:
 Configuração do ambiente de desenvolvimento: instalação do Laravel e das ferramentas necessárias.
 Criação do projeto Laravel inicial.
 
+# Progresso Atual
+Dia 2:
+
+Criação de rotas simples. 
+Aplicação de herança de template. 
+Instalação de Tailwind e criação de um menu superior.
