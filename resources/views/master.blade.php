@@ -21,7 +21,7 @@
             <div>
                 <img class="w-56 my-5 cursor-pointer" src="https://kedllon.solutions/assets/images/KS.png" alt="Logo Kedllon Solutions">
             </div>
-            <div class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+            <div class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[30vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
                 <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
                     <li>
                         <a class="hover:text-gray-500" href="/">Início</a>
