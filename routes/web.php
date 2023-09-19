@@ -2,6 +2,9 @@
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PostagemController;
+use App\Http\Controllers\SobreController;
+use App\Http\Controllers\ContatoController;
+use App\Http\Controllers\BlogController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,3 +21,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/postagem', [PostagemController::class, 'index'])->name('postagem');
+
+Route::get('/contato', [ContatoController::class, 'index'])->name('contato');
+
+Route::get('/sobre', [SobreController::class, 'index'])->name('sobre');
+
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
