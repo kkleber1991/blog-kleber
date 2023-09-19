@@ -15,3 +15,9 @@ Dia 2:
 Criação de rotas simples. 
 Aplicação de herança de template. 
 Instalação de Tailwind e criação de um menu superior.
+
+# Progresso Atual
+Dia 3:
+
+Criação das rotas do menu superior. 
+Aplicação da responsividade do menusuperior usando "JavaScript".
