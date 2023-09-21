@@ -24,3 +24,8 @@ Aplicação da responsividade do menusuperior usando "JavaScript".
 
 Criação de dados fake. 
 Utilizando o MySQL inseri os dados com factories, migrations e seeders. Detalhe (Deu erro por duas vezes ao tentar gerar os comentários, pois eu não tinha feito a importação do "Post" em CommentFactory.php).
+
+# Dia 5:
+
+Criando relacionamento entre tabelas. 
+Listando alguns posts (faltou a imagem, "problema no caminho que pega a imagem").
