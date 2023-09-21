@@ -26,7 +26,7 @@ class PostFactory extends Factory
             'slug' => Str::slug($title),
             'user_id' => User::pluck('id')->random(),
             'content' => fake()-> paragraph(),
-            'thumb' => str_replace('/public' , '', $thumb),
+            'thumb' => str_replace('public/' , '', $thumb),
         ];
     }
 }
