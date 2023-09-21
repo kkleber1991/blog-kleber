@@ -16,26 +16,26 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-[Lato] bg-[#F5F5F5] h-screen">
+<body class="font-[Lato] bg-[#F5F5F5] h-screen dark:bg-[#232323]">
 
-    <header class="bg-[#f5f5f5]">
+    <header class="dark:bg-[#181818]">
         <nav class="flex justify-between items-center w-[92%] mx-auto">
             <div>
                 <img class="w-56 my-5 cursor-pointer" src="https://kedllon.solutions/assets/images/KS.png" alt="Logo Kedllon Solutions">
             </div>
-            <div class="nav-links duration-500 md:static absolute bg-[#f5f5f5] md:min-h-fit min-h-[30vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5 z-40">
+            <div class="nav-links duration-500 md:static absolute bg-[#181818] md:min-h-fit min-h-[30vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5 z-40">
                 <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
                     <li>
-                        <a class="hover:text-white hover:bg-[#7c0fca] p-3 rounded-md " href="/">Início</a>
+                        <a class="text-white hover:text-white hover:bg-[#7c0fca] p-3 rounded-md " href="/">Início</a>
                     </li>
                     <li>
-                        <a class="hover:text-white hover:bg-[#7c0fca] p-3 rounded-md" href="/sobre">Sobre</a>
+                        <a class="text-white hover:text-white hover:bg-[#7c0fca] p-3 rounded-md" href="/sobre">Sobre</a>
                     </li>
                     <li>
-                        <a class="hover:text-white hover:bg-[#7c0fca] p-3 rounded-md" href="/blog">Blog</a>
+                        <a class="text-white hover:text-white hover:bg-[#7c0fca] p-3 rounded-md" href="/blog">Blog</a>
                     </li>
                     <li>
-                        <a class="hover:text-white hover:bg-[#7c0fca] p-3 rounded-md" href="/contato">Contato</a>
+                        <a class="text-white hover:text-white hover:bg-[#7c0fca] p-3 rounded-md" href="/contato">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -56,7 +56,7 @@
     </main>
 
     
-<footer class="bg-white rounded-lg shadow ">
+<footer class="dark:bg-[#181818] rounded-lg shadow border-solid border-2 border-[#7c0fca] hover:border-dotted">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="https://kedllon.solutions/" class="flex items-center mb-4 sm:mb-0">
@@ -70,7 +70,7 @@
                     <a href="#" class="mr-4 hover:underline md:mr-6">Politicas</a>
                 </li>
                 <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6 ">Github</a>
+                    <a href="https://github.com/kkleber1991/blog-kleber" class="mr-4 hover:underline md:mr-6 ">Github</a>
                 </li>
                 <li>
                     <a href="#" class="hover:underline">Contact</a>
