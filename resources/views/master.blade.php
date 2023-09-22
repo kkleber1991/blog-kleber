@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Kleber - 60 dias Laravel</title>
+    <title>{{ $title }} Blog Kleber - Desafio Laravel</title>
 
     <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,32 +55,32 @@
         @yield('main')
     </main>
 
-    
-<footer class="dark:bg-[#181818] rounded-lg shadow border-solid border-2 border-[#7c0fca] hover:border-dotted">
-    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div class="sm:flex sm:items-center sm:justify-between">
-            <a href="https://kedllon.solutions/" class="flex items-center mb-4 sm:mb-0">
-                <img src="https://kedllon.solutions/assets/images/KS.png" class="h-8 mr-3" alt="Flowbite Logo" />
-            </a>
-            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-                <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6 ">Sobre</a>
-                </li>
-                <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6">Politicas</a>
-                </li>
-                <li>
-                    <a href="https://github.com/kkleber1991/blog-kleber" class="mr-4 hover:underline md:mr-6 ">Github</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline">Contact</a>
-                </li>
-            </ul>
+
+    <footer class="dark:bg-[#181818] rounded-lg shadow border-solid border-2 border-[#7c0fca] hover:border-dotted">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="https://kedllon.solutions/" class="flex items-center mb-4 sm:mb-0">
+                    <img src="https://kedllon.solutions/assets/images/KS.png" class="h-8 mr-3" alt="Flowbite Logo" />
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6 ">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6">Politicas</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kkleber1991/blog-kleber" class="mr-4 hover:underline md:mr-6 ">Github</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://kedllon.solutions/" class="hover:underline">Kedllon™</a>. All Rights Reserved.</span>
         </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://kedllon.solutions/" class="hover:underline">Kedllon™</a>. All Rights Reserved.</span>
-    </div>
-</footer>
+    </footer>
 
 
 

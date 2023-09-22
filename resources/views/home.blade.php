@@ -46,12 +46,12 @@
             <div class="rounded-lg dark:bg-[#232323]">
                 <img class="object-cover object-center w-full lg:h-48 md:h-36 rounded-md" src="{{ asset(str_replace('public/', '', $post->thumb)) }}" alt="blog">
                 <div class="p-6">
-                    <span class="inline-block p-2 mb-2 text-xs font-medium tracking-widest text-green-800 bg-green-200 rounded">{{$post->user->firstName}}
+                    <span class="inline-block p-2 mb-2 text-xs font-medium tracking-widest text-green-800 bg-green-200 rounded">{{ $post->user->firstName }}
                     </span>
                     <h1 class="mb-2 text-lg font-medium text-gray-100">{{$post->title}}</h1>
-                    <p class="mb-2 text-sm tracking-wide text-gray-500">{{ Str::limit($post->content, 150, '')}}</p>
+                    <p class="mb-2 text-sm tracking-wide text-gray-500">{{ Str::limit($post->content, 105, '...')}}</p>
                     <div class="flex items-center ">
-                        <a class="inline-flex items-center cursor-pointer md:mb-2 lg:mb-0 text-white bg-[#7c0fca] p-3 rounded-md hover:bg-[#9e34e3]">Leia mais
+                        <a class="inline-flex items-center cursor-pointer md:mb-2 lg:mb-0 text-white bg-[#7c0fca] p-3 rounded-md hover:bg-[#9e34e3]" href="{{ route('post', $post->slug) }}">Leia mais
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                             </svg>

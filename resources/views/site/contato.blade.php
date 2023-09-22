@@ -1,6 +1,6 @@
 @extends('master')
 
-@section('content')
+@section('main')
 
 <h2>Contato</h2>
 
