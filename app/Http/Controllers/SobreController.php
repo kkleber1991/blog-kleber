@@ -11,7 +11,8 @@ class SobreController extends Controller
      */
     public function index()
     {
-        return view(view:"site/sobre");
+        $title = "Sobre meu desafio";
+        return view("site/sobre", ['title' => $title]);
     }
 
     /**

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Post;
 use Illuminate\Http\Request;
 
 class ContatoController extends Controller
@@ -9,9 +10,10 @@ class ContatoController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Post $post)
     {
-        return view(view:"site/contato");
+        $title = 'Contato com';
+        return view("site/contato", ['title' => $title]);
     }
 
     /**

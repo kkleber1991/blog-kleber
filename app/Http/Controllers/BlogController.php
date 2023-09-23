@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Post;
 use Illuminate\Http\Request;
 
 class BlogController extends Controller
@@ -9,9 +10,16 @@ class BlogController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Post $post)
     {
-        return view(view:"site/blog");
+        $posts = Post::limit(9)->orderby('id', 'desc')->get();
+        $title = 'Ultimas postagens do ';
+
+        $shuffledPosts = $posts->shuffle();
+
+        $groupedPosts = $shuffledPosts->chunk(12);
+
+        return view('site/blog', ['post' => $post, 'title' => $title, 'groupedPosts' => $groupedPosts ]);
     }
 
     /**
